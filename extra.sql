@@ -26,3 +26,9 @@ ALTER TABLE `questions`
 --
 ALTER TABLE `quizzes`
   ADD CONSTRAINT `fk_q_users` FOREIGN KEY (`creator_id`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION;
+
+--
+-- Constraints for table `users`
+--
+ALTER TABLE `users`
+  ADD CONSTRAINT `fk_u_instituion` FOREIGN KEY (`institution_id`) REFERENCES `educational_institutions` (`institution_id`) ON DELETE NO ACTION;
