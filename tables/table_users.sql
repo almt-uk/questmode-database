@@ -14,9 +14,9 @@ CREATE TABLE IF NOT EXISTS `users` (
   `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `username` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `country_code` varchar(3) COLLATE utf8_unicode_ci NOT NULL,
-  `university` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `dob` date NOT NULL DEFAULT current_timestamp(),
+  `institution_id` int(10) NOT NULL,
   `joined_on` timestamp NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`user_id`),
-  UNIQUE KEY `username` (`username`)
+  UNIQUE KEY `username` (`username`),
+  KEY `fk_u_instituion` (`institution_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=100002 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
