@@ -4,6 +4,8 @@
 --
 -- Table structure for table `skills`
 --
+-- Creation: Mar 07, 2020 at 03:53 PM
+--
 
 DROP TABLE IF EXISTS `skills`;
 CREATE TABLE IF NOT EXISTS `skills` (

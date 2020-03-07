@@ -4,6 +4,8 @@
 --
 -- Table structure for table `answers`
 --
+-- Creation: Mar 07, 2020 at 07:25 PM
+--
 
 DROP TABLE IF EXISTS `answers`;
 CREATE TABLE IF NOT EXISTS `answers` (

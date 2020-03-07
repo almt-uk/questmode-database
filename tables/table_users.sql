@@ -4,6 +4,8 @@
 --
 -- Table structure for table `users`
 --
+-- Creation: Mar 07, 2020 at 02:49 PM
+--
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (

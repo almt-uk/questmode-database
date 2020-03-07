@@ -4,6 +4,8 @@
 --
 -- Table structure for table `educational_institutions`
 --
+-- Creation: Mar 06, 2020 at 07:19 AM
+--
 
 DROP TABLE IF EXISTS `educational_institutions`;
 CREATE TABLE IF NOT EXISTS `educational_institutions` (

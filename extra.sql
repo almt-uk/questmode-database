@@ -27,7 +27,7 @@ ALTER TABLE `player_answers`
 -- Constraints for table `player_items`
 --
 ALTER TABLE `player_items`
-  ADD CONSTRAINT `fk_pi_items` FOREIGN KEY (`item_id`) REFERENCES `items` (`item_id`) ON DELETE NO ACTION,
+  ADD CONSTRAINT `fk_pi_items` FOREIGN KEY (`item_id`) REFERENCES `items` (`itemid`) ON DELETE NO ACTION,
   ADD CONSTRAINT `fk_pi_players` FOREIGN KEY (`player_id`) REFERENCES `players` (`player_id`) ON DELETE NO ACTION;
 
 --

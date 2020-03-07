@@ -4,6 +4,8 @@
 --
 -- Table structure for table `questions`
 --
+-- Creation: Mar 07, 2020 at 07:15 PM
+--
 
 DROP TABLE IF EXISTS `questions`;
 CREATE TABLE IF NOT EXISTS `questions` (

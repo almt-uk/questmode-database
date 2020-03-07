@@ -4,7 +4,6 @@
 --
 -- Table structure for table `items`
 --
-
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE IF NOT EXISTS `items` (
   `item_id` int(6) NOT NULL AUTO_INCREMENT,
