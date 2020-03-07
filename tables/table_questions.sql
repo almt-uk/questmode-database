@@ -12,7 +12,9 @@ CREATE TABLE IF NOT EXISTS `questions` (
   `content` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `image` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
   `quizz_id` int(10) NOT NULL,
-  `duration` int(3) NOT NULL,
+  `time_question` int(2) NOT NULL,
+  `time_answer` int(2) NOT NULL,
+  `time_results` int(2) NOT NULL,
   PRIMARY KEY (`question_id`),
   KEY `fk_que_quizz` (`quizz_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=100000000000 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
