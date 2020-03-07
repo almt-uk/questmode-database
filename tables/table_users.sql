@@ -4,6 +4,8 @@
 --
 -- Table structure for table `users`
 --
+-- Creation: Mar 07, 2020 at 02:49 PM
+--
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
@@ -11,7 +13,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `is_teacher` tinyint(1) NOT NULL DEFAULT 0,
   `email` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
-  `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `username` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `country_code` varchar(3) COLLATE utf8_unicode_ci NOT NULL,
   `institution_id` int(10) NOT NULL,
